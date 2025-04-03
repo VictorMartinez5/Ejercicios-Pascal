@@ -6,6 +6,7 @@
 
 
 
+
 {Ejercicio 25) Diseñar un algoritmo que permita mostrar el estado civil de un
 empleado según un
 valor ingresado. Los valores son:   1 - casado;
@@ -21,6 +22,8 @@ Uses crt;
 Var num:   integer;
 
 Begin
+    clrscr;
+
     writeln('Ingreses el valor del estado civil del empleado');
     readln(num);
 

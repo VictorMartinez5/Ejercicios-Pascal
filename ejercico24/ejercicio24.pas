@@ -16,6 +16,10 @@
 
 
 
+
+
+
+
 {Algoritmo que lea tres valores DÍA (numérico) MES (numérico) y AÑO (numérico) y
 escriba en el siguiente formato: el día DÍA de MES del AÑO. Ejemplo: el día 5 de Septiembre de
 2020.}
@@ -28,6 +32,7 @@ Var dia, anio, mes:   integer;
 
 
 Begin
+    clrscr;
     writeln('Ingreses el dia en valor numerico');
     readln(dia);
     writeln('Ingreses el mes en valor numerico');

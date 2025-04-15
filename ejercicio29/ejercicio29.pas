@@ -18,5 +18,7 @@ Begin
     Else
         writeln('El numero no es par');
 
+    readln;
+
 
 End.
